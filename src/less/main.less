@@ -1,14 +1,28 @@
 @backgroundColor: #9933ff;
 @fontColor: #ffffff;
+@fontFamily: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 body{
     background: @backgroundColor;
     color: @fontColor;
     margin: 5px;
     padding: 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:@fontFamily;
+    font-size: 18px;
+    
+    h2{
+        text-align: center;
+    }
+    
+    select {
+        padding: 3px;
+        font-family:@fontFamily;
+        font-size: 1.05em;
+    }
     
     ul{
+        width: 500px;
+        margin: auto;
         list-style: none;
         li{
             padding: 5px;
