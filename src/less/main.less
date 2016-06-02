@@ -10,6 +10,14 @@ body{
     font-family:@fontFamily;
     font-size: 18px;
     
+    .unicornData{
+        background-image: url('/images/unicorn.png');
+        background-size: 100px 100px;
+        width: 100px;
+        height: 100px;
+        background-repeat: no-repeat;
+    }
+    
     h2{
         text-align: center;
     }
@@ -20,11 +28,13 @@ body{
         font-size: 1.05em;
     }
     
-    ul{
+    table{
         width: 500px;
         margin: auto;
         list-style: none;
-        li{
+        border-collapse: collapse;
+        td{
+            border: solid 1px #ddd;
             padding: 5px;
             .unicornStatus{
                     padding: 10px;
