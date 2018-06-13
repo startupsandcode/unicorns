@@ -9,9 +9,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-connect": "^4.0.0",
-    "gulp-less": "^3.1.0",
-    "gulp-open": "^2.0.0"
+    "gulp": "^4.0.0",
+    "gulp-connect": "^5.5.0",
+    "gulp-less": "^4.0.0",
+    "gulp-open": "^3.0.1"
   }
 }
